@@ -30,13 +30,11 @@ body {
 }
 
 /* Small Screens */
-
 @media (min-width: 480px) {
   .container {
     width: 400px;
   }
 }
-
 @media (min-width: 768px) {
   .container {
     width: 750px;
@@ -44,7 +42,6 @@ body {
 }
 
 /* Medium Screens */
-
 @media (min-width: 992px) {
   .container {
     width: 970px;
@@ -52,17 +49,16 @@ body {
 }
 
 /* Large Screens */
-
 @media (min-width: 1200px) {
   .container {
     width: 1170px;
   }
 }
-/* Custom scrollbar styles for WebKit browsers */
+
+/* Custom scrollbar styles */
 ::-webkit-scrollbar {
   width: 12px;
 }
-
 ::-webkit-scrollbar-track {
   background: #2c4755;
 }
@@ -70,7 +66,6 @@ body {
   background-color: #10cab7;
   border-radius: 10px;
 }
-/* Custom scrollbar styles for Firefox */
 * {
   scrollbar-width: auto;
   scrollbar-color: #10cab7 #f6f6f6;
@@ -211,7 +206,6 @@ nav .burger-icon.active .icon span:nth-child(3) {
   font-size: 20px;
   line-height: 1.8;
 }
-
 /* END Landing */
 
 /* Features */
@@ -237,7 +231,6 @@ nav .burger-icon.active .icon span:nth-child(3) {
 .features-container .feat p {
   color: #777777;
 }
-
 /* END Features */
 
 /* Services */
@@ -388,7 +381,6 @@ nav .burger-icon.active .icon span:nth-child(3) {
   cursor: pointer;
   border-radius: var(--border-radius);
 }
-
 /* END Portfolio */
 
 /* About */
@@ -437,7 +429,6 @@ nav .burger-icon.active .icon span:nth-child(3) {
     align-items: center;
     margin-top: 60px;
     margin-left: 0;
-
   }
   .about .container .about-text hr {
     width: 100%;
@@ -534,5 +525,4 @@ footer span:nth-child(2) {
   color: var(--main-color);
   font-weight: bold;
 }
-
 /* END Footer */
